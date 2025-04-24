@@ -3,7 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 class GeminiApiService {
-  static const String _prefsApiKey = 'AIzaSyCC_VMKISWodPmZXtYR6e1OBA9mDSVsNXQ';
+  static const String _prefsApiKey = 'key';
   
   final SharedPreferences _prefs;
   String? _apiKey;
